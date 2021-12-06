@@ -1,0 +1,40 @@
+.header-container {
+    
+    padding-top: 30px;
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    color: #d49b45;
+    text-align: center;
+  }
+  
+  .header-container > h1 {
+    margin: 10px 0px 0px;
+  }
+  
+  .main-container {
+    background-image: url("https://www.wallpapertip.com/wmimgs/181-1814154_black-and-yellow-shade-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: 600px;
+    margin: 0px auto;
+    /* display: grid; */
+    grid-template: 20% 80% / 50% 50%;
+  }
+  ol{
+      word-break:break-all;
+      margin:0;
+      padding: 20px;
+   
+      text-align: left;
+  }
+  li{
+      list-style-position: inside;
+      padding: 0;
+      color: whitesmoke;
+  }
+
+  li:hover
+  {
+      background-color: red;
+  }
